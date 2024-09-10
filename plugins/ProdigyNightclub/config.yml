@@ -1,0 +1,4 @@
+# Available languages: en_EN
+# If you want to help us, send me a language.json with your language ;)
+language: "en_EN"
+ticket_command: "ticket"

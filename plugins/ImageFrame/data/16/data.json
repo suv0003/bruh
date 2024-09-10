@@ -1,0 +1,134 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 16,
+  "name": "a4",
+  "url": "https://cdn.discordapp.com/attachments/1259524269503680655/1281881054122086420/abee4.png?ex\u003d66e148c3\u0026is\u003d66dff743\u0026hm\u003d6097074cfcff1d3eb195d53197b08e69c5b905e7a9b0f4dd44ec1b3f03e8aeba\u0026",
+  "width": 6,
+  "height": 4,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725966137661,
+  "mapdata": [
+    {
+      "mapid": 1361,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1362,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 1363,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 1364,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 1365,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 1366,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 1367,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 1368,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 1369,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 1370,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 1371,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 1372,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 1373,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 1374,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 1375,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 1376,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 1377,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 1378,
+      "image": "17.png",
+      "markers": []
+    },
+    {
+      "mapid": 1379,
+      "image": "18.png",
+      "markers": []
+    },
+    {
+      "mapid": 1380,
+      "image": "19.png",
+      "markers": []
+    },
+    {
+      "mapid": 1381,
+      "image": "20.png",
+      "markers": []
+    },
+    {
+      "mapid": 1382,
+      "image": "21.png",
+      "markers": []
+    },
+    {
+      "mapid": 1383,
+      "image": "22.png",
+      "markers": []
+    },
+    {
+      "mapid": 1384,
+      "image": "23.png",
+      "markers": []
+    }
+  ]
+}

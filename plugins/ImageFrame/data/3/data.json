@@ -1,0 +1,134 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 3,
+  "name": "3",
+  "url": "https://i.pinimg.com/564x/cb/4d/99/cb4d997f50b7159d8534e4c3e73ed017.jpg",
+  "width": 4,
+  "height": 6,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725965039161,
+  "mapdata": [
+    {
+      "mapid": 1165,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1166,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 1167,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 1168,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 1169,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 1170,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 1171,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 1172,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 1173,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 1174,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 1175,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 1176,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 1177,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 1178,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 1179,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 1180,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 1181,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 1182,
+      "image": "17.png",
+      "markers": []
+    },
+    {
+      "mapid": 1183,
+      "image": "18.png",
+      "markers": []
+    },
+    {
+      "mapid": 1184,
+      "image": "19.png",
+      "markers": []
+    },
+    {
+      "mapid": 1185,
+      "image": "20.png",
+      "markers": []
+    },
+    {
+      "mapid": 1186,
+      "image": "21.png",
+      "markers": []
+    },
+    {
+      "mapid": 1187,
+      "image": "22.png",
+      "markers": []
+    },
+    {
+      "mapid": 1188,
+      "image": "23.png",
+      "markers": []
+    }
+  ]
+}

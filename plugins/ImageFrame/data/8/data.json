@@ -1,0 +1,74 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 8,
+  "name": "9",
+  "url": "https://i.pinimg.com/564x/29/c9/6f/29c96f67472a49356882ff90289e8da9.jpg",
+  "width": 3,
+  "height": 4,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725965360461,
+  "mapdata": [
+    {
+      "mapid": 1253,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1254,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 1255,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 1256,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 1257,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 1258,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 1259,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 1260,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 1261,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 1262,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 1263,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 1264,
+      "image": "11.png",
+      "markers": []
+    }
+  ]
+}
