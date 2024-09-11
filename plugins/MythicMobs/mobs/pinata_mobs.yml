@@ -51,6 +51,7 @@ tntpinata_em:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 creeperpinata_em:
   Type: silverfish
@@ -107,6 +108,7 @@ creeperpinata_em:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 beepinata_em:
   Type: silverfish
@@ -163,6 +165,7 @@ beepinata_em:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 pinata_candymarker:
   Type: silverfish
@@ -195,6 +198,7 @@ pinata_candymarker:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 genericpinata_em:
   Type: silverfish
@@ -250,6 +254,7 @@ genericpinata_em:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 burritopinata_em:
   Type: silverfish
@@ -305,5 +310,6 @@ burritopinata_em:
     Collidable: false
     NoGravity: true
     KnockbackResistance: 1
+    Despawn: true
 
 # 670SOX6CW

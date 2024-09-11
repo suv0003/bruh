@@ -1,0 +1,119 @@
+'0':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 653.5332651703026
+    y: 83.7385918287356
+    z: 204.0091453926235
+    pitch: 24.104452
+    yaw: 332.0876
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'1':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 654.3652302409446
+    y: 83.68613450176375
+    z: 203.87895305351933
+    pitch: 29.18042
+    yaw: 343.28418
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'2':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 667.6096903526096
+    y: 80.73721922448345
+    z: 217.5727726956537
+    pitch: 37.146957
+    yaw: 75.58057
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'3':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 667.8331820970631
+    y: 80.67658705294025
+    z: 219.67699758707369
+    pitch: -2.6757448
+    yaw: 87.84659
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'4':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 667.6064241074306
+    y: 80.79854674936523
+    z: 221.5081984222912
+    pitch: -0.34796396
+    yaw: 90.84177
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'5':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 653.5920298260047
+    y: 83.89000600806975
+    z: 234.51857580054704
+    pitch: -4.144256
+    yaw: 189.34326
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'6':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 654.5787632406232
+    y: 83.89000600806975
+    z: 234.6809247102302
+    pitch: -4.144256
+    yaw: 189.34326
+  default-laserType: PARTICLE
+  default-laserDistance: 30.0
+  particle-option:
+    type: ELECTRIC_SPARK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false

@@ -17,7 +17,7 @@ Configuration:
   # Mob Defaults - choose what mob options default to
   # ================================================================================
   DefaultMobOptions:
-    Despawn: true
+    Despawn: false
     
     PreventOtherDrops: false
     PreventVanillaDamage: false

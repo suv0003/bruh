@@ -1,0 +1,75 @@
+upAndDown:
+  path:
+    speed: 10
+    targets:
+    - 0;0 
+    - 0;60
+  repeat:
+    amount: -1
+    mode: LOOP
+leftAndRight:
+  path:
+    speed: 20
+    targets:
+    - -60;0
+    - 60;0
+  repeat:
+    amount: -1
+    mode: LOOP
+random_wait_fast:
+  path:
+    speed: 0
+    targets:
+    - -50;50;0;60
+    - -50;50;0;60
+    projectorMode: HALF
+  repeat:
+    amount: -1
+    mode: LOOP
+    wait: 5
+random_fast:
+  path:
+    speed: 10
+    targets:
+    - -50;50;0;60
+    - -50;50;0;60
+  repeat:
+    amount: -1
+    mode: LOOP
+random_slow:
+  path:
+    speed: 60
+    targets:
+    - -50;50;0;60
+    - -50;50;0;60
+  repeat:
+    amount: -1
+    mode: LOOP
+waveYawAxis_fast:
+  path:
+    speed: 20
+    targets:
+    - 60;15
+    - -60;-15
+fixed_down:
+  path:
+    targetMode: ABSOLUTE
+    speed: 1
+    targets:
+    - 0;90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
