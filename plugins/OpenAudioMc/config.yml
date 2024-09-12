@@ -6,7 +6,7 @@ messages:
   preparing-session: '&7&oGenerating audio session..'
 
   # The message the client gets when executing /audio of joins (if send-on-join is enabled)
-  click-to-connect: '\n&b&lClick &ahere&b&l to open the Web Client!\n&3This lets you use &dProximity Voice Chat&3 and in-game &daudio&3!\n '
+  click-to-connect: '\n&b&lClick &ahere&b&l to visit the song client!\n&3This lets you listen to the &dsongs&3!\n '
   # an alternate version of this message for bedrock users
   connect-prompt-bedrock: '\n&b&lThis server supports &aProximity Voice Chat&b&l!\n&b&lGo to {domain} in your web-browser to get started.\n '
 
