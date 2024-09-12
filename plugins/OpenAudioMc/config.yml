@@ -20,7 +20,7 @@ messages:
   click-link-expired: '&3Your link to the audio client has expired. Use &b/audio&3 to request a new one.'
 
   # The message a client gets when their web-client has been opened
-  client-opened: '&2&oYou are now connected with the audio client!'
+  client-opened: '&2&oYou can now hear the songs!'
 
   # The message a client gets when their web-client has been closed
   client-closed: '&c&oYour audio session has been ended'

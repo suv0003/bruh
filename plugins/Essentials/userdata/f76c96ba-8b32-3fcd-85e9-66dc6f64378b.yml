@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726140081552
+  login: 1726139772400
+money: '0'
+last-account-name: eagledares1
+lastlocation:
+  world: 909e30fd-8980-4c88-a4d1-c8a6363e853b
+  world-name: world
+  x: -30.5
+  y: 64.0
+  z: -3.5
+  yaw: 0.0
+  pitch: 0.0
+nickname: Abee
+logoutlocation:
+  world: 909e30fd-8980-4c88-a4d1-c8a6363e853b
+  world-name: world
+  x: 105.48002129376067
+  y: 151.0
+  z: 315.30000001192093
+  yaw: 2.427995204925537E-4
+  pitch: 32.61185836791992

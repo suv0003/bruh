@@ -4380,3 +4380,14 @@ metro:
           rotZ: 0.0
       entityType: MINECART
       flipped: true
+train1:
+  slowDown: false
+  allowManualMovement: true
+  savedName: cart
+  claims:
+    - Legendaryxxx f740b3e1-520d-33ee-af20-d4486f8896ef
+  carts:
+    fd051d10-33bd-4fc7-852c-fdd99a9fe7ef:
+      enterMessage: WHEEEEEEEEE
+      entityType: MINECART
+      flipped: true
