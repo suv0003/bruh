@@ -1,0 +1,9 @@
+preferedGroupRotations:
+  stage:
+  - random_slow
+  - upAndDown
+  - leftAndRight
+  - fixed_down
+  - waveYawAxis_fast
+  - random_wait_fast
+  - random_fast

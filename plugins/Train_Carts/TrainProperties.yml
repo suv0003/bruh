@@ -1,0 +1,11 @@
+train1:
+  slowDown: false
+  allowManualMovement: true
+  savedName: cart
+  claims:
+    - Legendaryxxx f740b3e1-520d-33ee-af20-d4486f8896ef
+  carts:
+    6ab12f07-7604-4194-a2ba-e8631ab4a85d:
+      enterMessage: WHEEEEEEEEE
+      entityType: MINECART
+      flipped: true

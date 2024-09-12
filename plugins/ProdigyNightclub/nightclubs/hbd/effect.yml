@@ -1,0 +1,23 @@
+cyclone:
+  '0':
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 652.3635089389918
+      y: 73.99869816501607
+      z: 219.66003846162275
+      pitch: -0.029550292
+      yaw: 89.35318
+    renderSpeed: 0
+    rotation: false
+    particle-option:
+      type: CLOUD
+      direction: 8.984774;0.0;-0.52330345
+      speed: 0.1
+      amount: 0
+      directional: false
+    radius: 10.0
+    particleAmount: 12
+    particleSpeed: 0.1
+    increaseRadius: 1.0
+    increaseHeight: 0.0

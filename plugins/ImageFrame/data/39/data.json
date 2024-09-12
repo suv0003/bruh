@@ -1,0 +1,74 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 39,
+  "name": "d19",
+  "url": "https://cdn.discordapp.com/attachments/1259524269503680655/1283011183590506548/image.png?ex\u003d66e170c7\u0026is\u003d66e01f47\u0026hm\u003daefa81795be6023e6e94c46e68b1857097955f09781710f9d364404d03e1dbe0\u0026",
+  "width": 3,
+  "height": 4,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725967883260,
+  "mapdata": [
+    {
+      "mapid": 1755,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1756,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 1757,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 1758,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 1759,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 1760,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 1761,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 1762,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 1763,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 1764,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 1765,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 1766,
+      "image": "11.png",
+      "markers": []
+    }
+  ]
+}

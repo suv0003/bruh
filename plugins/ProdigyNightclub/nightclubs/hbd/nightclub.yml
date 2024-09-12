@@ -1,0 +1,24 @@
+nightclub:
+  id: 0
+  point1:
+    ==: org.bukkit.Location
+    world: world
+    x: 569.0
+    y: 65.0
+    z: 143.0
+    pitch: 0.0
+    yaw: 0.0
+  point2:
+    ==: org.bukkit.Location
+    world: world
+    x: 726.0
+    y: 164.0
+    z: 290.0
+    pitch: 0.0
+    yaw: 0.0
+resourcepack:
+  enabled: false
+  direct_url: https://www.dropbox.com/s/elnr9ye9tlyzrk8/prodigynightclub-resourcepack.zip?dl=1
+displayname: §6Welcome birthday girl ;)
+permission_display_mode: ACTION_BAR
+enter_permissions: ACTION_BAR

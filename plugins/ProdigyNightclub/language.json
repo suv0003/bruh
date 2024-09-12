@@ -1,0 +1,95 @@
+{
+  "resourcepack_loading": "&5Musics are loading, so you can enter inside the nightclub",
+  "resourcepack_loaded": "&5Musics are loaded, come and join the dancefloor !",
+  "resourcepack_failed": "&4Error while loading the musics, please accept the resourcepack or contact administrator !",
+  "resourcepack_loading_title": "&dYou can now join the party !",
+  "resourcepack_loaded_title": "&5Musics are loading...",
+  "resourcepack_failed_title": "&cCould not load the musics...",
+  "win_ticket": "&6Congratulation, you win a ticket to join our event !",
+  "get_ticket": "&6Congratulation, you get a ticket to join our event !",
+  "all_tickets_sold": "&6All your tickets are sold ! We keep 1 ticket for you :) \n&6If you want to sell your last ticket, you can re-use the command",
+  "refund": "&6Your ticket for event %event is refund and you get %price $ &c(event cancelled or ticket removed by admin)",
+  "ticket_sold": "&6%player bought your ticket !",
+  "new_ticket_sold": "&6%player bought a ticket !",
+  "sale_ended": "&6Your ticket sale for event %event has now ended \n&6You earned &e%amount &6of money !",
+  "tickets_waiting_for_sell": "&6Your tickets are now on sale for %time",
+  "ticket_waiting_for_sell": "&6Your ticket is now on sale for %time",
+  "already_own_ticket": "&cYou already own a ticket for this event",
+  "no_ticket_left": "&cNo ticket left for this event...",
+  "player_not_sell_ticket": "The player does not sell any ticket",
+  "something_wrong": "&6We are sorry, something went wrong with the purchase...",
+  "cant_buy_your_own": "&cYou can't buy your own ticket",
+  "no_enough_money": "&cYou do not have enough money...",
+  "cant_sell_no_ticket": "&cYou can't sell ticket if you don't own one",
+  "ticket_resell_not_allowed": "&cTicket resell is not allowed for this event",
+  "already_dealer": "&cYou are already selling ticket for this event",
+  "office_not_opened": "&cThe ticket office is not yet opened...",
+  "broadcast_office": "&5The ticket office is now opened ! You can buy a ticket using /ticket purchase",
+  "minute": "minute",
+  "minutes": "minutes",
+  "hour": "hour",
+  "hours": "hours",
+  "time_left_format": "%hour %hformat and %minute %mformat",
+  "event_menu_title": "Available events",
+  "event_menu_lore": [
+    "&3Tickets: %ticket_ratio",
+    "&3Start: %start",
+    "&3End: %end",
+    "&3Place: &b%nightclub"
+  ],
+  "event_menu_item_display": "&6List of available events",
+  "nothing_to_display": "&cNothing to display (close)",
+  "unlimited": "&bUnlimited",
+  "ticket_ratio": "&b%ticketSold&3/%ticket_amount",
+  "event_soldout": "&cThis event is sold out !",
+  "next_button": "&7Next",
+  "previous_button": "&7Previous",
+  "dealer_menu_title": "Available dealers",
+  "dealer_menu_lore": [
+    "&3Seller: %name",
+    "&3Time Left: %time_left",
+    "&3Price: %price",
+    "&bClick to purchase"
+  ],
+  "purchase_ticket_menu_title": "Purchase your ticket",
+  "official_ticket": "&6Purchase official ticket",
+  "unofficial_ticket": "&5Unofficial ticket &d(re-sell)",
+  "purchase_ticket_menu_lore": [
+    "&5Dealers: &d%amount",
+    "&dClick to purchase"
+  ],
+  "confirmation_menu_title": "Confirmation",
+  "confirm": "&2Confirm",
+  "decline": "&cDecline",
+  "tickets_owned": "&6Tickets owned by you",
+  "ticket_owned_title": "&3Ticket &b%id &3from event %event",
+  "no_ticket_enter": "&cYou don't have any ticket, /ticket purchase",
+  "no_perm_enter": "&cYou don't have the permission to enter",
+  "nightclub_closed": "&cThe nightclub is closed, please come back later",
+  "mojito_displayname": "&aMojito",
+  "mojito_lore": [
+    "&3Ingredients: ",
+    "   &b- mint",
+    "   &b- rhum",
+    "   &b- sugar",
+    "   &b- sparkling water",
+    "   &b- lemon"
+  ],
+  "vodka_displayname": "Vodka",
+  "vodka_lore": [
+    "&3Ingredients: ",
+    "   &b- 1 shot of pure vodka"
+  ],
+  "gintonic_displayname": "&bGin Tonic",
+  "ginTonic_lore": [
+    "&3What else ?"
+  ],
+  "beer_displayname": "&6Notch beer",
+  "beer_lore": [
+    "&eCrafted with care and creeper powder"
+  ],
+  "sexonthebeach_displayname": "&5Sex On The beach",
+  "sexonthebeach_lore": [
+    "&dAlcohol abuse is dangerous for health"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 6,
+  "name": "7",
+  "url": "https://i.pinimg.com/564x/cb/60/64/cb60647c5cae234749fb34a8b6ecee43.jpg",
+  "width": 4,
+  "height": 5,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725965230061,
+  "mapdata": [
+    {
+      "mapid": 1221,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1222,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 1223,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 1224,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 1225,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 1226,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 1227,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 1228,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 1229,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 1230,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 1231,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 1232,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 1233,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 1234,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 1235,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 1236,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 1237,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 1238,
+      "image": "17.png",
+      "markers": []
+    },
+    {
+      "mapid": 1239,
+      "image": "18.png",
+      "markers": []
+    },
+    {
+      "mapid": 1240,
+      "image": "19.png",
+      "markers": []
+    }
+  ]
+}

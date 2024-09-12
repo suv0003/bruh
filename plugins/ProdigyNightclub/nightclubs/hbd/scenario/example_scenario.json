@@ -1,0 +1,62 @@
+{
+  "end": 100,
+  "frames": [
+    {
+      "time": 0,
+      "projectorActions": [
+        {
+          "projectors": "test",
+          "distance": 10,
+          "laserType": "DRAGON",
+          "rotation": {
+            "duration": 10,
+            "name": "waves"
+          }
+        },
+        {
+          "projectors": "test2",
+          "distance": 50,
+          "laserType": "PARTICLE",
+          "rotation": {
+            "name": "upAndDown"
+          }
+        }
+      ]
+    },
+    {
+      "time": 60,
+      "projectorActions": [
+        {
+          "projectors": "0,1,2,3",
+          "rotation": {
+            "name": "leftAndRight"
+          }
+        },
+        {
+          "projectors": "0",
+          "rotation": {
+            "name": "upAndDown"
+          }
+        }
+      ],
+      "effectActions": [
+        {
+          "effectType": "lightning",
+          "id": 0
+        },
+        {
+          "effectType": "particle",
+          "id": 0,
+          "effect": {
+            "particle-option": {
+              "type": "FLAME",
+              "direction": "0.5;0.5;0.5",
+              "amount": 10,
+              "speed": 0.5
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

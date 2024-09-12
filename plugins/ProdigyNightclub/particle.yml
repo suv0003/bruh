@@ -1,0 +1,59 @@
+# Create your own particles options
+
+
+simple_end_rod:
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+rain_end_rod:
+  particle-option:
+    type: END_ROD
+    direction: 0.0;-1;0.0
+    speed: 0.2
+    amount: 0
+end_rod_explosion:
+  particle-option:
+    type: END_ROD
+    direction: 0.2;2.0;0.2
+    speed: 0.5
+    amount: 5
+colored:
+  particle-option:
+    type: DUST_COLOR_TRANSITION
+    color: 255;0;255
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+glow:
+  particle-option:
+    type: GLOW
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+cloud_glow:
+  particle-option:
+    type: GLOW_SQUID_INK
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+flame:
+  particle-option:
+    type: FLAME
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+sonic:
+  particle-option:
+    type: SONIC_BOOM
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+smoke:
+  particle-option:
+    type: CLOUD
+    direction: 0.0;1.0;0.0
+    speed: 0.1
+    amount: 10
+    directional: true

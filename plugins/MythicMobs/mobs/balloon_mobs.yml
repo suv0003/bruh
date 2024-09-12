@@ -39,6 +39,7 @@ redballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 blackballoon_em:
   Type: silverfish
@@ -81,6 +82,7 @@ blackballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 
 whiteballoon_em:
@@ -124,6 +126,7 @@ whiteballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 magentaballoon_em:
   Type: silverfish
@@ -166,6 +169,7 @@ magentaballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 greenballoon_em:
   Type: silverfish
@@ -208,6 +212,7 @@ greenballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 yellowballoon_em:
   Type: silverfish
@@ -250,6 +255,7 @@ yellowballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 violetballoon_em:
   Type: silverfish
@@ -292,6 +298,7 @@ violetballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
 
 blueballoon_em:
   Type: silverfish
@@ -334,3 +341,4 @@ blueballoon_em:
     PreventOtherDrops: true
     Collidable: true
     NoGravity: true
+    Despawn: true
