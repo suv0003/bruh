@@ -51,7 +51,7 @@ passionfruit_cake_em:
     KnockbackResistance: 1
     PreventSunburn: true
     Collidable: false
-    Despawn: true
+    
 
 strawberry_cake_em:
   Type: silverfish
@@ -110,7 +110,7 @@ strawberry_cake_em:
     KnockbackResistance: 1
     PreventSunburn: true
     Collidable: false
-    Despawn: true
+    
 
 #====== CHOCO CAKE
 
@@ -171,7 +171,7 @@ choco_cake_em:
     KnockbackResistance: 1
     PreventSunburn: true
     Collidable: false
-    Despawn: true
+    
 
 
 #====== RASPBERRY CAKE
@@ -233,7 +233,7 @@ framboise_cake_em:
     KnockbackResistance: 1
     PreventSunburn: true
     Collidable: false
-    Despawn: true
+    
   
 #====== RED VELVET CAKE
 
@@ -294,7 +294,7 @@ redvelvet_cake_em:
     KnockbackResistance: 1
     PreventSunburn: true
     Collidable: false
-    Despawn: true
+    
 
 
 #============
