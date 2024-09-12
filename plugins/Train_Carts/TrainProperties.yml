@@ -1,11 +1,4382 @@
-train1:
+metro:
+  name: metro
+  savedName: metro_red
+  wait:
+    distance: 10.0
+    delay: 5.0
+    acceleration: 0.0035
+    deceleration: 0.005
+    predict: true
+  speedLimit: 1.0
+  collision:
+    players: CANCEL
+    misc: CANCEL
+    train: CANCEL
+    block: CANCEL
   slowDown: false
-  allowManualMovement: true
-  savedName: cart
-  claims:
-    - Legendaryxxx f740b3e1-520d-33ee-af20-d4486f8896ef
+  keepChunksLoaded: true
   carts:
-    6ab12f07-7604-4194-a2ba-e8631ab4a85d:
-      enterMessage: WHEEEEEEEEE
+    6d0b377a-841a-4bd7-8445-aef8d65452ca:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: -1.8800000000000001
+              posZ: -1.4
+              rotX: 0.0
+              rotY: -90.00000000000001
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2030
+                Unbreakable: true
+                Damage: 32
+        physical:
+          cartLength: 1.75
+          wheelCenter: -1.4
+          wheelDistance: 2.2
+        position:
+          transform: HEAD
+          posX: 0.0
+          posY: 1.96
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+      entityType: MINECART
+      flipped: false
+    5be70146-074f-4121-ba93-0e21fa2e7ba4:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 6.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2100
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.0
+                  rotX: 0.0
+                  rotY: 0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+              1:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.75
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          1:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 3.0000000000000004
+              rotX: 0.0
+              rotY: 180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2101
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              6:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          2:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2102
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0
+                  rotX: 0.0
+                  rotY: 0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+              1:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          3:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: -3.0000000000000004
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2101
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              6:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          4:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: -6.0
+              rotX: 0.0
+              rotY: -180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2103
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          5:
+            type: EMPTY
+            position:
+              transform: head
+              posX: 0.0
+              posY: 2.08
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            attachments:
+              0:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 7.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              1:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 6.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              2:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 5.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              3:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 4.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              4:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 3.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              5:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 2.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              6:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              7:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              8:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              9:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -1.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              10:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -2.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              11:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -3.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              12:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -4.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              13:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -5.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              14:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -6.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+            editor:
+              expanded: false
+        physical:
+          cartLength: 10.0
+          wheelCenter: 1.0
+          wheelDistance: 10.0
+        position: {}
+      entityType: MINECART
+      flipped: false
+    b4f4476b-9b18-40b4-a9ff-bb6bea4a85d9:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: -1.8800000000000001
+              posZ: -1.4
+              rotX: 0.0
+              rotY: -90.00000000000001
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2030
+                Unbreakable: true
+                Damage: 32
+        physical:
+          cartLength: 1.75
+          wheelCenter: -1.4
+          wheelDistance: 2.2
+        position:
+          transform: HEAD
+          posX: 0.0
+          posY: 1.96
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+      entityType: MINECART
+      flipped: true
+    7ab051b9-47b9-4cce-897f-99360787cfe3:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: -1.8800000000000001
+              posZ: -1.4
+              rotX: 0.0
+              rotY: -90.00000000000001
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2030
+                Unbreakable: true
+                Damage: 32
+        physical:
+          cartLength: 1.75
+          wheelCenter: -1.4
+          wheelDistance: 2.2
+        position:
+          transform: HEAD
+          posX: 0.0
+          posY: 1.96
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+      entityType: MINECART
+      flipped: false
+    dd2a3cf7-76bb-4bdb-8be0-df12562d3db7:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 6.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2100
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.0
+                  rotX: 0.0
+                  rotY: 0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+              1:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.75
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          1:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 3.0000000000000004
+              rotX: 0.0
+              rotY: 180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2101
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              6:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          2:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2102
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0
+                  rotX: 0.0
+                  rotY: 0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+              1:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2121
+                    Unbreakable: true
+                    Damage: 32
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -0.6
+                      posY: 0.09
+                      posZ: -0.67
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    entityType: MINECART
+                    sitting: false
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          3:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: -3.0000000000000004
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2101
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: false
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_r:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2110
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=0.03
+                      - t=16.0 x=0.2 z=0.82
+                      - t=0.8 x=0.2 z=0.82 scene=c
+                      - t=0.2 x=0.2 z=0.03
+                      - t=0.0
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2111
+                    Unbreakable: true
+                    Damage: 32
+                animations:
+                  doors_l:
+                    nodes:
+                      - t=0.2 scene=o
+                      - t=0.8 x=0.2 z=-0.03
+                      - t=16.0 x=0.2 z=-0.82
+                      - t=0.8 x=0.2 z=-0.82 scene=c
+                      - t=0.2 x=0.2 z=-0.03
+                      - t=0.0
+              6:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          4:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 2.07
+              posZ: -6.0
+              rotX: 0.0
+              rotY: -180.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2103
+                Unbreakable: true
+                Damage: 32
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.34
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3337
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    custom-model-data: 2120
+                    Unbreakable: true
+                    Damage: 32
+                attachments:
+                  0:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: 1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                  1:
+                    type: SEAT
+                    position:
+                      transform: head
+                      posX: -1.16
+                      posY: 0.09
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: -90.0
+                      rotZ: 0.0
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    displayMode: DEFAULT
+                    lockRotation: true
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                    text: ''
+                    displayItem:
+                      enabled: false
+                    ejectPosition:
+                      lockRotation: false
+                      posX: 0.0
+                      posY: 0.0
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+          5:
+            type: EMPTY
+            position:
+              transform: head
+              posX: 0.0
+              posY: 2.08
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            attachments:
+              0:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 7.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              1:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 6.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              2:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 5.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              3:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 4.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              4:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 3.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              5:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 2.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              6:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 1.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              7:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.32
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              8:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              9:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -1.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              10:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -2.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              11:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -3.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              12:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -4.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              13:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -5.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+              14:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -6.68
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 3337
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: false
+                editor:
+                  expanded: false
+            editor:
+              expanded: false
+        physical:
+          cartLength: 10.0
+          wheelCenter: 1.0
+          wheelDistance: 10.0
+        position: {}
+      entityType: MINECART
+      flipped: true
+    33ca03a4-3c69-4517-ac45-b396b5543006:
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: -1.8800000000000001
+              posZ: -1.4
+              rotX: 0.0
+              rotY: -90.00000000000001
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3337
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: 2030
+                Unbreakable: true
+                Damage: 32
+        physical:
+          cartLength: 1.75
+          wheelCenter: -1.4
+          wheelDistance: 2.2
+        position:
+          transform: HEAD
+          posX: 0.0
+          posY: 1.96
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
       entityType: MINECART
       flipped: true

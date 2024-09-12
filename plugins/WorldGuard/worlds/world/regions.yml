@@ -11,13 +11,29 @@
 #
 regions:
     '14':
-        min: {x: 295, y: -64, z: 159}
-        max: {x: 379, y: 319, z: 275}
+        min: {x: 277, y: -64, z: 146}
+        max: {x: 413, y: 319, z: 328}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
+    '15':
+        min: {x: 633, y: -64, z: 187}
+        max: {x: 647, y: 319, z: 205}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 2
+    stage:
+        min: {x: 642, y: -64, z: 199}
+        max: {x: 668, y: 319, z: 240}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 4
     '5':
         min: {x: 113, y: -64, z: 281}
         max: {x: 143, y: 319, z: 313}
@@ -26,6 +42,22 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    cake:
+        min: {x: 561, y: -64, z: 141}
+        max: {x: 708, y: 319, z: 294}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 1
+    pic:
+        min: {x: 630, y: -64, z: 237}
+        max: {x: 648, y: 319, z: 250}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 2
     __global__:
         members: {}
         flags: {time-lock: '20000'}

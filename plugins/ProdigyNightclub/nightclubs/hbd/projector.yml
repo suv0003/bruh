@@ -117,3 +117,139 @@
     speed: 0.0
     amount: 0
     directional: false
+'7':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 623.5113678735181
+    y: 100.55812915442
+    z: 191.28414825168525
+    pitch: 29.77267
+    yaw: 337.24976
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'8':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 625.6408353711156
+    y: 100.54882753339588
+    z: 190.65869323673473
+    pitch: 20.01276
+    yaw: 350.50067
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'9':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 622.4817399498113
+    y: 100.40361963258398
+    z: 246.70027310811486
+    pitch: 25.086933
+    yaw: 178.45789
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'10':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 624.433675825844
+    y: 100.34087652381507
+    z: 247.54999407705964
+    pitch: 23.741028
+    yaw: 175.40186
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'11':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 629.1631899754433
+    y: 96.91364258386943
+    z: 233.24392991397792
+    pitch: 39.94138
+    yaw: 81.6192
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'12':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 628.9694532786075
+    y: 96.7887691504119
+    z: 200.23574576177216
+    pitch: 37.234203
+    yaw: 88.93872
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'13':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 608.6991382043759
+    y: 103.44608786756707
+    z: 224.21790409652507
+    pitch: 34.5298
+    yaw: 249.27454
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
+'14':
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 608.4606270598073
+    y: 103.52981128375978
+    z: 214.62683466793192
+    pitch: 36.55793
+    yaw: 273.8993
+  default-laserType: PARTICLE
+  default-laserDistance: 50.0
+  particle-option:
+    type: END_ROD
+    direction: 0.0;0.0;0.0
+    speed: 0.0
+    amount: 0
+    directional: false
